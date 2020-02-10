@@ -13,3 +13,38 @@ ul{
         list-style: none;
     }
 }
+
+body{
+    font-family: helvetica;
+}
+
+article{
+    padding-left: 5vw;
+}
+
+a{
+    font-size: rem-calc(14);
+    font-weight: bold;
+    color: rgba(0,0,0,.4);
+    transition: 0.25s;
+    &:hover{
+        color: $black;
+    }
+}
+
+#element1{
+    position: fixed;
+    top: 30px;
+    left:5vw;
+    color:white;
+}
+
+
+// adjustments to FullPage css
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: $white !important;
+}
+
+#fp-nav ul, .fp-slidesNav ul {
+        margin-left: 5vw !important;
+}

@@ -1,0 +1,23 @@
+/* =============
+    Section 2
+============= */
+#section2{
+    .slide{
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: multiply;
+        background-color: rgba(45,45,45,0.85);
+        h1, p{
+            color: $white;
+        }
+    }
+    #slide1{
+        background-image:url("https://source.unsplash.com/random/2000x1001");
+    }
+    #slide2{
+        background-image: url("https://source.unsplash.com/random/2000x1002");
+    }
+    #slide3{
+        background-image: url("https://source.unsplash.com/random/2000x1003");
+    }
+}

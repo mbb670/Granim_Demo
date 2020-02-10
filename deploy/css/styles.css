@@ -321,6 +321,32 @@ ul {
   ul li {
     list-style: none; }
 
+body {
+  font-family: helvetica; }
+
+article {
+  padding-left: 5vw; }
+
+a {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+  transition: 0.25s; }
+  a:hover {
+    color: #000; }
+
+#element1 {
+  position: fixed;
+  top: 30px;
+  left: 5vw;
+  color: white; }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: #fff !important; }
+
+#fp-nav ul, .fp-slidesNav ul {
+  margin-left: 5vw !important; }
+
 /* =============
     Typography
 ============= */
@@ -355,3 +381,34 @@ textarea {
 /* =============
     Footer
 ============= */
+/* =============
+    Section 1
+============= */
+#section1 {
+  background-color: #10c7c4; }
+
+/* =============
+    Section 2
+============= */
+#section2 .slide {
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(45, 45, 45, 0.85); }
+  #section2 .slide h1, #section2 .slide p {
+    color: #fff; }
+
+#section2 #slide1 {
+  background-image: url("https://source.unsplash.com/random/2000x1001"); }
+
+#section2 #slide2 {
+  background-image: url("https://source.unsplash.com/random/2000x1002"); }
+
+#section2 #slide3 {
+  background-image: url("https://source.unsplash.com/random/2000x1003"); }
+
+/* =============
+    Section 3
+============= */
+#section3 {
+  background-color: #ff7252; }
