@@ -17,7 +17,7 @@ new fullpage('#fullPage', {
     continuousVertical:true,
 
     // showing tooltips on nav circles
-    navigationTooltips:['INTRO', 'SLIDES', 'FEATURES'],
+    navigationTooltips:['INTRO', 'BASIC', 'IMAGES'],
     showActiveTooltip:true,
 
     // pages which go beyond the viewport height

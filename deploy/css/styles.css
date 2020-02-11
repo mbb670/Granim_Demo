@@ -335,6 +335,19 @@ a {
   a:hover {
     color: #000; }
 
+.textbox {
+  position: absolute;
+  z-index: 10000;
+  top: 10vh;
+  left: 10vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  width: 30vw;
+  border-radius: 30px; }
+  .textbox h1 {
+    padding: 40px;
+    line-height: 2.625rem; }
+
 #element1 {
   position: fixed;
   top: 30px;
@@ -384,13 +397,27 @@ textarea {
 /* =============
     Section 1
 ============= */
-#section1 {
-  background-color: #10c7c4; }
+#section1 .textbox h1 {
+  padding-bottom: 20px; }
+
+#section1 .textbox a {
+  margin-left: 40px;
+  padding-bottom: 20px; }
+
+#section1 #canvas-basic {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 /* =============
     Section 2
 ============= */
-#section2 #canvas-basic {
+#section2 #canvas-advanced {
   position: absolute;
   display: block;
   width: 100%;
@@ -403,7 +430,7 @@ textarea {
 /* =============
     Section 3
 ============= */
-#section3 #canvas-image {
+#section3 #canvas-image-blending {
   position: absolute;
   display: block;
   width: 100%;
@@ -411,4 +438,5 @@ textarea {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0; }
+  left: 0;
+  z-index: 50; }

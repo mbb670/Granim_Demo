@@ -32,6 +32,24 @@ a{
     }
 }
 
+
+.textbox {
+    position: absolute;
+    z-index: 10000;
+    top: 10vh;
+    left: 10vw;
+    background-color: rgba(0,0,0,.3);
+    color: $white;
+    width: 30vw;
+    border-radius: 30px;
+
+    h1 {
+        padding: 40px;
+        line-height: rem-calc(42);
+    }
+}
+
+
 #element1{
     position: fixed;
     top: 30px;

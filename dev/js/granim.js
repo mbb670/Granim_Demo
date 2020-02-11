@@ -1,7 +1,7 @@
 var granimInstance = new Granim({
-    element: '#canvas-basic',
+    element: '#canvas-advanced',
     direction: 'left-right',
-    isPausedWhenNotInView: true,
+    isPausedWhenNotInView: false,
     states : {
         "default-state": {
             gradients: [
@@ -21,25 +21,46 @@ var granimInstance = new Granim({
 
 
 
-var granimInstance = new Granim({
+var granimInstance2 = new Granim({
     element: '#canvas-image-blending',
     direction: 'top-bottom',
-    isPausedWhenNotInView: true,
+    isPausedWhenNotInView: false,
     image : {
-        source: 'https://source.unsplash.com/random/2000x2000',
-        blendingMode: 'multiply'
+        source: 'https://www.tom-archer.com/wp-content/uploads/2018/06/milford-sound-night-fine-art-photography-new-zealand.jpg',
+        blendingMode: 'color'
     },
     states : {
         "default-state": {
             gradients: [
-                ['#29323c', '#485563'],
-                ['#FF6B6B', '#556270'],
-                ['#80d3fe', '#7ea0c4'],
-                ['#f0ab51', '#eceba3']
+                ['#010914', '#041B44'],
+                ['#062B79', '#16498A'],
+                ['#5995B7', '#FAFBBD'],
+                ['#FDE050', '#F1B351'],
+                ['#FFEC8F', '#FFF9E1'],
+                ['#5995B7', '#FAFBBD'],
+                ['#062B79', '#16498A']
             ],
-            transitionSpeed: 7000
+            transitionSpeed: 3500
+        }
+    }
+});
+
+
+var granimInstance3 = new Granim({
+    element: '#canvas-basic',
+    direction: 'radial',
+    isPausedWhenNotInView: false,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#ff9966', '#ff5e62'],
+                ['#00F260', '#0575E6'],
+                ['#e1eec3', '#f05053']
+            ]
         }
     }
 });
 
 console.log(granimInstance);
+console.log(granimInstance2);
+console.log(granimInstance3);

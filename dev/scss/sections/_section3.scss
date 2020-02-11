@@ -1,8 +1,9 @@
 /* =============
     Section 3
 ============= */
-#section3{
-    #canvas-image {
+#section3 {
+
+    #canvas-image-blending {
         position: absolute;
         display: block;
         width: 100%;
@@ -11,5 +12,6 @@
         right: 0;
         bottom: 0;
         left: 0;
+        z-index: 50;
     }
 }
